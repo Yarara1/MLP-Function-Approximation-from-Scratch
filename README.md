@@ -8,17 +8,8 @@ The network uses `tanh` activation and is trained with **mini-batch gradient des
 
 ## Model
 
-```text
-(x, y)
-  ↓
-Fully Connected Layer
-  ↓
-tanh
-  ↓
-Linear Output
-  ↓
-f̂(x, y)
-```
+<img width="361" height="321" alt="image" src="https://github.com/user-attachments/assets/ae991351-df67-4cb8-b9b1-d8a9a1c0b0a9" />
+
 
 The model was implemented without MATLAB's built-in neural network training functions, including manual forward propagation and backpropagation.
 
